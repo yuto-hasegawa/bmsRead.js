@@ -1,0 +1,22 @@
+The MIT License (MIT)
+
+Copyright (c) 2017 q/stol
+
+このプラグインは、各種ライセンスに基づき以下のプラグインを改変して組み込んでいます。
+
+
+encoding.js by polygon planet
+licensed under the MIT license.
+https://github.com/polygonplanet/encoding.js
+
+
+md5.js by Masanao Izumo <iz@onicos.co.jp>
+written "You can redistribute it and/or modify it without any warranty."
+
+
+yjd.js by 2014 yujakudo
+written "尚、今回作成した記事中で参照しているファイル（yjdmd5.js, testcase.js, md5test.html）の再利用や改変は、ご自由に行って下さい。"
+on http://www.yujakudo.com/blogs/develop/hash-on-js/md5-on-javascript/
+
+
+ここにお礼申し上げます。
