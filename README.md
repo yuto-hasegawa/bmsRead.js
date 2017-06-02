@@ -98,9 +98,9 @@ $('.bmsbox').bmsRead({
 | folderWait | string | 'Drag and Drop Files or Folders Here.' | フォルダドロップ対応ブラウザにおける初期表示です。|
 | fileWait | string | 'Drag and Drop Files Here.' | ファイルドロップのみ対応のブラウザにおける初期表示です。|
 | noWait | string | 'Your Browser doesn\'t support bmsRead.js' | ファイルドロップ非対応ブラウザにおける初期表示です。|
-| onDrop | function | function() {} | ファイルがエリアにドロップされたときに呼び出されます。|
-| onRead | function | function(fileinfo) {<br>  this.children('.bmsRead_message').text("Finished");<br>console.log(fileinfo);<br>}| BMSファイルの読み込みが終わると呼び出されます。BMSの詳細情報オブジェクトは第一引数に渡されます。|
-| onProceed | function | function(totalFile, doneFile) {<br>this.children('.bmsRead_message').text("Reading Files: "+ doneFile +"/"+totalFile);<br>}| ファイル数のカウントが行われたとき、もしくは進捗が生まれたときに呼び出されます。第一引数に全ファイル数、第二引数に処理済みのファイル数が渡されます。|
+| onDrop | function | 略 | ファイルがエリアにドロップされたときに呼び出されます。|
+| onRead | function | 略 | BMSファイルの読み込みが終わると呼び出されます。BMSの詳細情報オブジェクトは第一引数に渡されます。|
+| onProceed | function | 略 | ファイル数のカウントが行われたとき、もしくは進捗が生まれたときに呼び出されます。第一引数に全ファイル数、第二引数に処理済みのファイル数が渡されます。|
 
 ## ライセンス
 The MIT License (MIT)  
