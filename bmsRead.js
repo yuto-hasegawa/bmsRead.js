@@ -367,10 +367,10 @@
         var chart_name="";
 
         var totalnotes=0;
-        var normalnote=result.match(/#\d\d\d1\d:.+/g);
+        var normalnote=result.match(/#\d\d\d[1-2][1-9]:.+/g);
         if (normalnote){
             for (var i=0;i<normalnote.length;i++){
-                normalnote[i]=normalnote[i].replace(/#\d\d\d1\d:/,"");
+                normalnote[i]=normalnote[i].replace(/#\d\d\d[1-2][1-9]:/,"");
                 var two_chars=normalnote[i].split(/(.{2})/).filter(Boolean);
                 for(var j=0;j<two_chars.length;j++){
                     if (two_chars[j]==="00"){continue;}
@@ -378,10 +378,10 @@
                 }
             }
         }
-        var longnote=result.match(/#\d\d\d5\d:.+/g);
+        var longnote=result.match(/#\d\d\d[5-6][1-9]:.+/g);
         if (longnote){
             for (var i=0;i<longnote.length;i++){
-                longnote[i]=longnote[i].replace(/#\d\d\d5\d:/,"");
+                longnote[i]=longnote[i].replace(/#\d\d\d[5-6][1-9]:/,"");
                 var two_chars=longnote[i].split(/(.{2})/).filter(Boolean);
                 for(var j=0;j<two_chars.length;j++){
                     if (two_chars[j]==="00"){continue;}

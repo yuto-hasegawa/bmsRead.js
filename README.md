@@ -92,9 +92,10 @@ $('.bmsbox').bmsRead({
 });
 ```
 
-設定できる項目は以下の通りです。
-| Parameter | Type | Default | Description |
-|:-----------|:------------|:------------|:------------|
+設定できる項目は以下の通りです。  
+
+| Parameter | Type | Default | Description |  
+|:-----------|:------------|:------------|:------------|  
 | folderWait | string | 'Drag and Drop Files or Folders Here.' | フォルダドロップ対応ブラウザにおける初期表示です。|
 | fileWait | string | 'Drag and Drop Files Here.' | ファイルドロップのみ対応のブラウザにおける初期表示です。|
 | noWait | string | 'Your Browser doesn\'t support bmsRead.js' | ファイルドロップ非対応ブラウザにおける初期表示です。|
