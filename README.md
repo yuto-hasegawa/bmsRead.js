@@ -1,3 +1,10 @@
+> **Warning**
+>
+> このライブラリは**メンテナンスを停止しました**。
+> 新しく導入することはおすすめしません。
+>
+> 同様の用途には [bmssearch/bms-pattern-overview](https://github.com/bmssearch/bms-pattern-overview) が現役なのでそちらをご利用ください。
+
 # bmsRead.js
 ## bmsRead.jsとは
 bmsRead.jsは、ファイルまたはフォルダからのドラッグアンドドロップによりBMSファイルの読み込みを可能にするjQeuryプラグインです。  
